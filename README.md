@@ -10,6 +10,16 @@ Follow the instructions in the classroom lesson to install and configure the AIN
 
 **YOU ONLY NEED TO WRITE CODE IN `solution.py`.**
 
+## Implementations 
+Naked twins algorithm 
+Q: How do we use constraint propagation to solve the naked twins problem?
+
+A: Two cells in a row, column or block, which together contain only the same two candidates. These candidates can be excluded from other cells in the same row, column or block.
+
+Diagonal Sudoku
+Q: How do we use constraint propagation to solve the diagonal sudoku problem?
+
+A: There are some constraint propagations for solving sudoku puzzle. Eliminate, naked_twins and only_choice functions consider two diagonal units along with row, column, square units.
 
 ## Quickstart Guide
 
